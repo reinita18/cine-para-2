@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title">
+<title id="title">Agua</title>
+<rect width="400" height="400" rx="54" fill="#fffaf3"/>
+<circle cx="200" cy="180" r="118" fill="#7da8b4" opacity=".18"/>
+<text x="200" y="225" text-anchor="middle" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif" font-size="128">💧</text>
+<path d="M85 318 H315" stroke="#7da8b4" stroke-width="4" stroke-linecap="round"/>
+<text x="200" y="354" text-anchor="middle" font-family="Georgia, serif" font-size="30" font-weight="700" fill="#6b1d2a">Agua</text>
+</svg>

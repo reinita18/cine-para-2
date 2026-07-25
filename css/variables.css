@@ -1,0 +1,55 @@
+:root {
+  /* Paleta oficial inspirada en la guía de marca proporcionada */
+  --color-burgundy: #6b1d2a;
+  --color-burgundy-deep: #4d111b;
+  --color-red-warm: #b03a3a;
+  --color-caramel: #c5844a;
+  --color-gold: #d4b26a;
+  --color-cream: #f6eadd;
+  --color-cream-light: #fffaf3;
+  --color-charcoal: #2e2a28;
+  --color-muted: #746963;
+  --color-line: #dec7aa;
+  --color-success: #46745b;
+  --color-warning: #99601f;
+  --color-danger: #9c2934;
+  --color-white: #ffffff;
+
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-body: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-script: "Brush Script MT", "Segoe Script", cursive;
+
+  --text-xs: 0.78rem;
+  --text-sm: 0.9rem;
+  --text-base: 1rem;
+  --text-lg: 1.18rem;
+  --text-xl: clamp(1.35rem, 2vw, 1.75rem);
+  --text-2xl: clamp(1.8rem, 4vw, 3.2rem);
+  --text-hero: clamp(2.4rem, 7vw, 5.7rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  --radius-sm: 0.55rem;
+  --radius-md: 0.9rem;
+  --radius-lg: 1.35rem;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 0.35rem 1rem rgba(77, 17, 27, 0.08);
+  --shadow-md: 0 1rem 2.5rem rgba(77, 17, 27, 0.14);
+  --shadow-ticket: 0 1.35rem 3rem rgba(46, 42, 40, 0.2);
+
+  --container: 74rem;
+  --header-height: 5rem;
+  --transition-fast: 150ms ease;
+  --transition-base: 240ms ease;
+  --focus-ring: 0 0 0 3px rgba(212, 178, 106, 0.55);
+}

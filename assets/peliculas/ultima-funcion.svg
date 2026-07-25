@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-labelledby="title desc">
+<title id="title">Póster ilustrativo de La última
+función</title>
+<desc id="desc">Diseño romántico en la paleta de Cine para 2.</desc>
+<rect width="600" height="900" fill="#3b2f3f"/>
+<circle cx="300" cy="300" r="190" fill="#c5844a" opacity=".18"/>
+<circle cx="300" cy="300" r="145" fill="#fffaf3" opacity=".92"/>
+<path d="M205 315 C225 235 300 235 300 315 C300 235 375 235 395 315 C390 405 300 445 300 445 C300 445 210 405 205 315Z" fill="#3b2f3f" opacity=".92"/>
+<g fill="#c5844a">
+  <circle cx="95" cy="120" r="5"/><circle cx="500" cy="180" r="8"/><circle cx="455" cy="90" r="4"/>
+  <path d="M115 220 l8 18 18 8-18 8-8 18-8-18-18-8 18-8z"/>
+  <path d="M490 360 l7 15 15 7-15 7-7 15-7-15-15-7 15-7z"/>
+</g>
+<text x="300" y="80" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="24" letter-spacing="7" fill="#fffaf3">CINE PARA 2</text>
+<text x="300" y="520" text-anchor="middle" font-family="Georgia, serif" font-size="58" font-weight="700" fill="#fffaf3">La última
+función</text>
+<line x1="150" x2="450" y1="690" y2="690" stroke="#c5844a" stroke-width="3"/>
+<text x="300" y="742" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="22" letter-spacing="4" fill="#fffaf3">COMEDIA</text>
+<text x="300" y="835" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#fffaf3" opacity=".78">Una historia para compartir</text>
+</svg>

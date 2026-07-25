@@ -1,0 +1,245 @@
+@media (max-width: 68rem) {
+  .movie-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Tableta horizontal */
+@media (max-width: 62rem) {
+  .site-header__inner {
+    align-items: flex-start;
+    padding-block: var(--space-3);
+  }
+
+  .main-nav {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .hero {
+    grid-template-columns: 1fr 0.78fr;
+    min-height: 34rem;
+  }
+
+  .showtime-layout,
+  .seat-page,
+  .concessions-layout,
+  .checkout-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.42fr);
+    gap: var(--space-5);
+  }
+
+  .ticket {
+    grid-template-columns: minmax(0, 1fr) 12rem;
+  }
+}
+
+@media (max-width: 52rem) {
+  :root {
+    --header-height: 4.5rem;
+  }
+
+  .site-header {
+    position: relative;
+  }
+
+  .site-header__inner {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .main-nav {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .main-nav__button {
+    flex: 1 1 auto;
+    padding-inline: 0.6rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__visual {
+    min-height: 18rem;
+  }
+
+  .movie-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .movie-detail {
+    grid-template-columns: minmax(13rem, 0.52fr) minmax(0, 1fr);
+    gap: var(--space-6);
+  }
+
+  .showtime-layout,
+  .seat-page,
+  .concessions-layout,
+  .checkout-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .selection-card,
+  .order-summary,
+  .payment-card {
+    position: static;
+  }
+
+  .order-summary {
+    order: -1;
+  }
+
+  .ticket {
+    grid-template-columns: 1fr;
+  }
+
+  .ticket__stub {
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: 2px dashed rgba(246, 234, 221, 0.55);
+    border-left: 0;
+  }
+}
+
+@media (max-width: 39rem) {
+  .app-main {
+    width: min(100% - 1rem, var(--container));
+    padding-top: var(--space-5);
+  }
+
+  .brand-button small,
+  .main-nav__button--quiet {
+    display: none;
+  }
+
+  .main-nav {
+    gap: 0;
+  }
+
+  .main-nav__button {
+    min-height: 2.5rem;
+    font-size: 0.78rem;
+  }
+
+  .view__header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .hero {
+    border-radius: var(--radius-lg);
+  }
+
+  .hero__content {
+    padding: var(--space-8) var(--space-5);
+  }
+
+  .hero__actions,
+  .hero__actions .button,
+  .button-row,
+  .button-row .button {
+    width: 100%;
+  }
+
+  .movie-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .movie-card {
+    display: grid;
+    grid-template-columns: 7.5rem minmax(0, 1fr);
+  }
+
+  .movie-card__poster-wrap {
+    aspect-ratio: auto;
+    min-height: 100%;
+  }
+
+  .movie-card__synopsis {
+    -webkit-line-clamp: 2;
+  }
+
+  .movie-detail {
+    grid-template-columns: 1fr;
+  }
+
+  .movie-detail__poster-frame {
+    width: min(100%, 18rem);
+    margin-inline: auto;
+  }
+
+  .showtime-option {
+    min-height: 4.5rem;
+  }
+
+  .seat-room {
+    padding-inline: var(--space-2);
+  }
+
+  .seat-row {
+    grid-template-columns: 1rem repeat(10, minmax(1.35rem, 1fr));
+    gap: 0.18rem;
+  }
+
+  .seat {
+    border-radius: 0.35rem 0.35rem 0.2rem 0.2rem;
+  }
+
+  .seat-legend {
+    gap: var(--space-3);
+  }
+
+  .product-card {
+    grid-template-columns: 4.5rem minmax(0, 1fr);
+    padding: var(--space-3);
+  }
+
+  .product-card__image {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .product-card__header {
+    display: block;
+  }
+
+  .ticket__main {
+    padding: var(--space-5);
+  }
+
+  .ticket__movie {
+    grid-template-columns: 4.8rem minmax(0, 1fr);
+  }
+
+  .ticket__poster {
+    width: 4.8rem;
+  }
+
+  .ticket__details {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ticket-actions,
+  .ticket-actions .button,
+  .modal__actions,
+  .modal__actions .button {
+    width: 100%;
+  }
+
+  .modal__actions {
+    flex-direction: column;
+  }
+
+  .toast-region {
+    right: 0.5rem;
+    bottom: 0.5rem;
+    width: calc(100% - 1rem);
+  }
+}
