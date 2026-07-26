@@ -35,9 +35,8 @@ export function renderBienvenida(contenedor, contexto) {
     <section class="view hero" aria-labelledby="welcome-title">
       <div class="hero__content">
         <p class="hero__kicker">${branding.eslogan}</p>
-        <h1 id="welcome-title">Cine <span>para</span> 2</h1>
         <p class="hero__lead">
-          <strong>${mensajes.bienvenidaTitulo}.</strong><br />
+          <strong>${mensajes.bienvenidaTitulo}</strong><br />
           ${mensajes.bienvenidaFrase}
         </p>
         <div class="hero__actions">
