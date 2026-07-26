@@ -56,6 +56,7 @@ export function renderBienvenida(contenedor, contexto) {
       </div>
     </section>
   `;
+  
 
   contenedor.querySelector('[data-action="movies"]').addEventListener("click", () => {
     contexto.navegar("movies");
