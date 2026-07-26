@@ -78,7 +78,7 @@ export function renderAsientos(contenedor, contexto) {
       <header class="view__header">
         <div>
           <p class="view__eyebrow">Paso 2 de 3</p>
-          <h1 id="seats-title">Elige los dos asientos</h1>
+          <h1 id="seats-title">Elige tus asientos</h1>
           <p class="view__lead">
             Los lugares D5 y D6 están juntos y centrados para disfrutar mejor la función.
           </p>
