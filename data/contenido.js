@@ -14,7 +14,7 @@ export const branding = {
 };
 
 export const configuracion = {
-  fechaFuncion: "Sábado 15 de agosto de 2026",
+  fechaFuncion: "Domingo 26 de julio de 2026",
   codigoConfirmacion: "CINEPARA2",
   moneda: "MXN",
   maximoAsientos: 2,
@@ -109,15 +109,19 @@ export const peliculas = [
 
 export const horariosPorPelicula = {
   "siniestro": [
-    { id: "nbe-1700", hora: "5:00 p. m.", estado: "agotado" },
-    { id: "nbe-1830", hora: "6:30 p. m.", estado: "agotado" },
-    { id: "nbe-2000", hora: "8:00 p. m.", estado: "disponible" },
-    { id: "nbe-2130", hora: "9:30 p. m.", estado: "agotado" }
+    { id: "nbe-2134", hora: "11:30 a. m.", estado: "agotado" },
+    { id: "nbe-1700", hora: "12:30 p. m.", estado: "disponible" },
+    { id: "nbe-1830", hora: "01:00 p. m.", estado: "disponible" },
+    { id: "nbe-2000", hora: "01:20 p. m.", estado: "disponible" },
+    { id: "nbe-2130", hora: "01:30 p. m.", estado: "disponible" },
+    { id: "nbe-2131", hora: "02:20 p. m.", estado: "disponible" },
+    { id: "nbe-2132", hora: "02:40 p. m.", estado: "disponible" },
+    { id: "nbe-2133", hora: "03:00 p. m.", estado: "agotado" }
   ],
   "bastardosSinGloria": [
-    { id: "cdo-1730", hora: "5:30 p. m.", estado: "agotado" },
-    { id: "cdo-1900", hora: "7:00 p. m.", estado: "agotado" },
-    { id: "cdo-2030", hora: "8:30 p. m.", estado: "disponible" },
+    { id: "cdo-1730", hora: "05:30 p. m.", estado: "agotado" },
+    { id: "cdo-1900", hora: "07:00 p. m.", estado: "agotado" },
+    { id: "cdo-2030", hora: "08:30 p. m.", estado: "disponible" },
     { id: "cdo-2200", hora: "10:00 p. m.", estado: "agotado" }
   ]
 };
@@ -238,14 +242,26 @@ export const productos = [
     disponible: false
   },
   {
-    id: "mas-palomitas",
-    nombre: "Más palomitas",
-    descripcion: "Una recarga para la segunda mitad de la película.",
+    id: "palomitas",
+    nombre: "Palomitas",
+    descripcion: "Palomitas naturales",
     imagen: "./assets/alimentos/palomitas-clasicas.svg",
     precio: 35,
     categoria: "Antojos",
     limite: 1,
-    stock: 1,
+    stock: 50,
+    momento: "durante",
+    disponible: false
+  },
+  {
+    id: "palomitas-queso",
+    nombre: "Palomitas de queso",
+    descripcion: "Puede contener Doritos Nacho o Cheetos",
+    imagen: "./assets/alimentos/palomitas-clasicas.svg",
+    precio: 35,
+    categoria: "Antojos",
+    limite: 2,
+    stock: 20,
     momento: "durante",
     disponible: true
   },
@@ -256,13 +272,13 @@ export const productos = [
     imagen: "./assets/alimentos/bebida.svg",
     precio: 25,
     categoria: "Bebidas",
-    limite: 2,
-    stock: 2,
+    limite: 1,
+    stock: 28,
     momento: "durante",
     disponible: true
   },
   {
-    id: "agua-fria-durante",
+    id: "agua-fria",
     nombre: "Agua",
     descripcion: "Bien fría y entregada directamente en el asiento.",
     imagen: "./assets/alimentos/agua-fria.svg",
@@ -275,12 +291,12 @@ export const productos = [
   },
   {
     id: "takis",
-    nombre: "Takis",
-    descripcion: "Plato con takis Verdes.",
+    nombre: "Bowl de Takis",
+    descripcion: "Bowl con takis Verdes.",
     imagen: "./assets/alimentos/takis.png",
-    precio: 45,
+    precio: 25,
     categoria: "Antojos",
-    limite: 1,
+    limite: 2,
     stock: 1,
     momento: "durante",
     disponible: true
@@ -292,8 +308,8 @@ export const productos = [
     imagen: "./assets/alimentos/postre-sorpresa.svg",
     precio: 40,
     categoria: "Especiales",
-    limite: 1,
-    stock: 1,
+    limite: 2,
+    stock: 20,
     momento: "durante",
     disponible: true
   },
@@ -301,11 +317,11 @@ export const productos = [
     id: "salsa",
     nombre: "Salsa",
     descripcion: "Chamoy para tus takis, palomitas o cheetos.",
-    imagen: "./assets/alimentos/postre-sorpresa.svg",
-    precio: 40,
-    categoria: "Especiales",
-    limite: 1,
-    stock: 1,
+    imagen: "./assets/alimentos/salsa.png",
+    precio: 5,
+    categoria: "Extras",
+    limite: 4,
+    stock: 100,
     momento: "durante",
     disponible: true
   },
@@ -329,7 +345,7 @@ export const productos = [
     precio: 0,
     categoria: "Comodidad",
     limite: 1,
-    stock: 1,
+    stock: 10,
     momento: "durante",
     disponible: true
   },
@@ -350,30 +366,30 @@ export const productos = [
     nombre: "Hamburguesa especial",
     descripcion: "Hamburgesa especial sin papas.",
     imagen: "./assets/alimentos/hamburguesa.png",
-    precio: 0,
+    precio: 110,
     categoria: "Especiales",
     limite: 2,
-    stock: 2,
+    stock: 15,
     momento: "durante",
-    disponible: true
+    disponible: false
   },
   {
     id: "papas-fritas",
     nombre: "Papas fritas",
     descripcion: "Deliciosas papas fritas.",
-    imagen: "./assets/alimentos/beso-extra.svg",
-    precio: 0,
+    imagen: "./assets/alimentos/papas.png",
+    precio: 40,
     categoria: "Especiales",
     limite: 2,
-    stock: 2,
+    stock: 23,
     momento: "durante",
-    disponible: true
+    disponible: false
   }
 ];
 
 export const categoriasOrden = {
   antes: ["Palomitas", "Bebidas", "Dulces", "Combos", "Snacks"],
-  durante: ["Antojos", "Bebidas", "Especiales", "Comodidad"]
+  durante: ["Antojos", "Bebidas", "Especiales", "Comodidad", "Extras"]
 };
 
 export function obtenerPelicula(id) {
