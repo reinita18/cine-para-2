@@ -34,83 +34,108 @@ export const mensajes = {
 
 export const peliculas = [
   {
-    id: "siniestro",
-    titulo: "Siniestro",
-    poster: "./assets/peliculas/siniestro-poster.jpg",
-    genero: "Terror",
-    duracion: "1 h 49 min",
-    clasificacion: "B",
-    sinopsis:
-      " Ellison Oswalt, un novelista de crímenes reales en decadencia, muda a su familia a una casa donde ocurrió el atroz asesinato de los anteriores inquilinos para inspirar su próximo libro.",
-    informacionAdicional: "Selección especial · Audio en español · Subtítulos disponibles",
-    estado: "disponible"
-  },
-  {
-    id: "noche-bajo-estrellas",
-    titulo: "Noche bajo las estrellas",
-    poster: "./assets/peliculas/siniestro-poster.jpg",
-    genero: "Romance",
+    id: "obsession",
+    titulo: "Obsession",
+    poster: "./assets/peliculas/obsession-poster.jpg",
+    genero: "Terror · suspenso",
     duracion: "1 h 48 min",
     clasificacion: "B",
     sinopsis:
-      "Dos personas convierten una noche sencilla en un recuerdo que parece escrito para la pantalla grande.",
-    informacionAdicional: "Selección especial de la casa · Audio en español · Subtítulos disponibles",
+    "El anhelo romántico desesperado de un chico por su amor platónico de toda la vida desencadena un siniestro hechizo: Niki se vuelve irracionalmente obsesiva hasta convertirse en la sombra de Bear. Una fantasía aparentemente inofensiva que se convertirá en una perturbadora pesadilla.",
+    informacionAdicional: "Audio en español · Subtítulos disponibles",
+    estado: "disponible"
+  },
+  {
+    id: "rata-con-thinner",
+    titulo: "Rata con Thinner",
+    poster: "./assets/peliculas/rata-con-thinner-poster.jpg",
+    genero: "Terror",
+    duracion: "2 h 15 min",
+    clasificacion: "C",
+    sinopsis:
+      "La historia narra una experiencia extrema y bizarra de convivencia, donde el protagonista presencia los excéntricos encuentros sexuales de su primo con indigentes. El relato culmina en una caótica noche con un vagabundo yonqui que termina en una emergencia médica surrealista.",
+    informacionAdicional: "Selección especial · Audio en español · Subtítulos disponibles",
     estado: "disponible"
   },
   {
     id: "bastardosSinGloria",
     titulo: "Bastardos sin gloria",
     poster: "./assets/peliculas/bastardos-sin-gloria-poster.jpg",
-    genero: "Bélico, acción · drama · comedia negra.",
+    genero: "Bélico · acción · drama · comedia negra.",
     duracion: "2 h 33 min",
     clasificacion: "B",
     sinopsis:
       "En la Francia ocupada por los nazis durante la Segunda Guerra Mundial, el plan para asesinar a líderes nazis por un grupo de soldados judíos de los Estados Unidos, coincide con el dueño de un teatro que planea lo mismo.",
     informacionAdicional: "Doblada al español",
-    estado: "disponible"
+    estado: "agotada"
   },
   {
-    id: "viaje-de-nosotros",
-    titulo: "El viaje de nosotros",
-    poster: "./assets/peliculas/viaje-de-nosotros.svg",
+    id: "maleficio",
+    titulo: "Maleficio",
+    poster: "./assets/peliculas/maleficio-poster.jpg",
     genero: "Aventura romántica",
     duracion: "1 h 56 min",
     clasificacion: "A",
     sinopsis:
-      "Una escapada improvisada demuestra que el mejor destino puede ser la persona que viaja a tu lado.",
+      "Hace seis años, Li Ronan fue maldecido después de romper un tabú religioso. Ahora, debe proteger a su hija de las consecuencias de sus acciones.",
     informacionAdicional: "Función agotada · Audio en español",
+    estado: "disponible"
+  },
+  {
+    id: "rocky",
+    titulo: "Rocky",
+    poster: "./assets/peliculas/rocky-poster.jpg",
+    genero: "Bélico · acción",
+    duracion: "2 h 33 min",
+    clasificacion: "B",
+    sinopsis:
+      "Relata la historia de Rocky Balboa, un boxeador de poca monta y cobrador de deudas en Filadelfia, que recibe la oportunidad única de luchar por el título mundial de los pesos pesados contra Apollo Creed. A la par, encuentra el amor con Adrian.",
+    informacionAdicional: "Doblada al español",
     estado: "agotada"
   },
   {
-    id: "ultima-funcion",
-    titulo: "La última función",
-    poster: "./assets/peliculas/ultima-funcion.svg",
-    genero: "Comedia romántica",
-    duracion: "1 h 42 min",
+    id: "avatar",
+    titulo: "Avatar",
+    poster: "./assets/peliculas/avatar-poster.jpg",
+    genero: "Animación · Acción · Aventura · Fantasia",
+    duracion: "1 h 39 min",
     clasificacion: "B",
     sinopsis:
-      "Un viejo cine, una función inesperada y dos espectadores que llegan justo a tiempo.",
-    informacionAdicional: "Función agotada · Audio original",
-    estado: "agotada"
+      "Película de animación que seguirá a Aang y sus amigos, ahora como jóvenes adultos, varios años después de los acontecimientos del final de 'Avatar: The Last Airbender'.",
+    informacionAdicional: "Recomendación de la casa · Audio original",
+    estado: "disponible"
   },
   {
-    id: "luz-de-invierno",
-    titulo: "Luz de invierno",
-    poster: "./assets/peliculas/luz-de-invierno.svg",
-    genero: "Romance",
-    duracion: "Próximamente",
+    id: "erase-una-vez-en-holliwood",
+    titulo: "Erase una vez en holliwood",
+    poster: "./assets/peliculas/erase-una-vez-en-hollywood-poster.jpg",
+    genero: "Comedia · Drama · Suspenso",
+    duracion: "2 h 42 min",
     clasificacion: "B",
     sinopsis:
-      "Una historia tranquila sobre volver a encontrarse cuando la ciudad enciende sus primeras luces de invierno.",
-    informacionAdicional: "Próximo estreno en Cine para 2",
-    estado: "proximamente"
+      "Los Angeles, 1969. La estrella de televisión Rick Dalton, un actor en horas bajas especializado en westerns, y el doble de acción Cliff Booth, su mejor amigo, tratan de sobrevivir a una industria cinematográfica en constante cambio.",
+    informacionAdicional: "Estreno en Cine para 2",
+    estado: "disponible"
+  },
+  {
+    id: "libre",
+    titulo: "Pelicula libre",
+    poster: "./assets/peliculas/libre-poster.jpg",
+    genero: "",
+    duracion: "",
+    clasificacion: "",
+    sinopsis:
+      "",
+    informacionAdicional: "",
+    estado: "disponible"
   }
 ];
 
 export const horariosPorPelicula = {
-  "siniestro": [
+  "obsession": [
     { id: "nbe-2134", hora: "11:30 a. m.", estado: "agotado" },
     { id: "nbe-1700", hora: "12:30 p. m.", estado: "disponible" },
+    { id: "nbe-1700", hora: "12:500 p. m.", estado: "disponible" },
     { id: "nbe-1830", hora: "01:00 p. m.", estado: "disponible" },
     { id: "nbe-2000", hora: "01:20 p. m.", estado: "disponible" },
     { id: "nbe-2130", hora: "01:30 p. m.", estado: "disponible" },
@@ -118,11 +143,60 @@ export const horariosPorPelicula = {
     { id: "nbe-2132", hora: "02:40 p. m.", estado: "disponible" },
     { id: "nbe-2133", hora: "03:00 p. m.", estado: "agotado" }
   ],
-  "bastardosSinGloria": [
-    { id: "cdo-1730", hora: "05:30 p. m.", estado: "agotado" },
-    { id: "cdo-1900", hora: "07:00 p. m.", estado: "agotado" },
-    { id: "cdo-2030", hora: "08:30 p. m.", estado: "disponible" },
-    { id: "cdo-2200", hora: "10:00 p. m.", estado: "agotado" }
+  "rata-con-thinner": [
+    { id: "nbe-2134", hora: "11:30 a. m.", estado: "agotado" },
+    { id: "nbe-1700", hora: "12:30 p. m.", estado: "agotado" },
+    { id: "nbe-1700", hora: "12:500 p. m.", estado: "agotado" },
+    { id: "nbe-1830", hora: "01:00 p. m.", estado: "agotado" },
+    { id: "nbe-2000", hora: "01:20 p. m.", estado: "agotado" },
+    { id: "nbe-2130", hora: "01:30 p. m.", estado: "agotado" },
+    { id: "nbe-2131", hora: "02:20 p. m.", estado: "agotado" },
+    { id: "nbe-2132", hora: "02:40 p. m.", estado: "agotado" },
+    { id: "nbe-2133", hora: "03:00 p. m.", estado: "agotado" }
+  ],
+  "avatar": [
+    { id: "nbe-2134", hora: "11:30 a. m.", estado: "agotado" },
+    { id: "nbe-1700", hora: "12:30 p. m.", estado: "disponible" },
+    { id: "nbe-1700", hora: "12:500 p. m.", estado: "disponible" },
+    { id: "nbe-1830", hora: "01:00 p. m.", estado: "disponible" },
+    { id: "nbe-2000", hora: "01:20 p. m.", estado: "disponible" },
+    { id: "nbe-2130", hora: "01:30 p. m.", estado: "disponible" },
+    { id: "nbe-2131", hora: "02:20 p. m.", estado: "disponible" },
+    { id: "nbe-2132", hora: "02:40 p. m.", estado: "disponible" },
+    { id: "nbe-2133", hora: "03:00 p. m.", estado: "agotado" }
+  ],
+  "erase-una-vez-en-holliwood": [
+    { id: "nbe-2134", hora: "11:30 a. m.", estado: "agotado" },
+    { id: "nbe-1700", hora: "12:30 p. m.", estado: "disponible" },
+    { id: "nbe-1700", hora: "12:500 p. m.", estado: "disponible" },
+    { id: "nbe-1830", hora: "01:00 p. m.", estado: "disponible" },
+    { id: "nbe-2000", hora: "01:20 p. m.", estado: "disponible" },
+    { id: "nbe-2130", hora: "01:30 p. m.", estado: "disponible" },
+    { id: "nbe-2131", hora: "02:20 p. m.", estado: "disponible" },
+    { id: "nbe-2132", hora: "02:40 p. m.", estado: "disponible" },
+    { id: "nbe-2133", hora: "03:00 p. m.", estado: "agotado" }
+  ],
+  "maleficio": [
+    { id: "nbe-2134", hora: "11:30 a. m.", estado: "agotado" },
+    { id: "nbe-1700", hora: "12:30 p. m.", estado: "disponible" },
+    { id: "nbe-1700", hora: "12:500 p. m.", estado: "disponible" },
+    { id: "nbe-1830", hora: "01:00 p. m.", estado: "disponible" },
+    { id: "nbe-2000", hora: "01:20 p. m.", estado: "disponible" },
+    { id: "nbe-2130", hora: "01:30 p. m.", estado: "disponible" },
+    { id: "nbe-2131", hora: "02:20 p. m.", estado: "disponible" },
+    { id: "nbe-2132", hora: "02:40 p. m.", estado: "disponible" },
+    { id: "nbe-2133", hora: "03:00 p. m.", estado: "agotado" }
+  ],
+   "libre": [
+    { id: "nbe-2134", hora: "11:30 a. m.", estado: "agotado" },
+    { id: "nbe-1700", hora: "12:30 p. m.", estado: "disponible" },
+    { id: "nbe-1700", hora: "12:500 p. m.", estado: "disponible" },
+    { id: "nbe-1830", hora: "01:00 p. m.", estado: "disponible" },
+    { id: "nbe-2000", hora: "01:20 p. m.", estado: "disponible" },
+    { id: "nbe-2130", hora: "01:30 p. m.", estado: "disponible" },
+    { id: "nbe-2131", hora: "02:20 p. m.", estado: "disponible" },
+    { id: "nbe-2132", hora: "02:40 p. m.", estado: "disponible" },
+    { id: "nbe-2133", hora: "03:00 p. m.", estado: "agotado" }
   ]
 };
 
@@ -229,6 +303,17 @@ export const productos = [
     momento: "antes",
     disponible: true
   },
+  {  id: "combo-boneless",
+    nombre: "Combo Boneless",
+    descripcion: "Orden de Boneless con papas.",
+    imagen: "./assets/alimentos/boneles.png",
+    precio: 180,
+    categoria: "Combos",
+    limite: 1,
+    stock: 1,
+    momento: "antes",
+    disponible: true
+  },
   {
     id: "nachos-antes",
     nombre: "Nachos con queso",
@@ -255,8 +340,8 @@ export const productos = [
   },
   {
     id: "palomitas-queso",
-    nombre: "Palomitas de queso",
-    descripcion: "Puede contener Doritos Nacho o Cheetos",
+    nombre: "Palomitas de queso y Doritos Nacho",
+    descripcion: "Puede contener oalomitas,",
     imagen: "./assets/alimentos/palomitas-clasicas.svg",
     precio: 35,
     categoria: "Antojos",
@@ -281,6 +366,18 @@ export const productos = [
     id: "agua-fria",
     nombre: "Agua",
     descripcion: "Bien fría y entregada directamente en el asiento.",
+    imagen: "./assets/alimentos/agua-fria.svg",
+    precio: 15,
+    categoria: "Bebidas",
+    limite: 2,
+    stock: 2,
+    momento: "durante",
+    disponible: true
+  },
+  {
+    id: "lechita",
+    nombre: "Lechita de fresa",
+    descripcion: "Lechita de fresa en carton.",
     imagen: "./assets/alimentos/agua-fria.svg",
     precio: 15,
     categoria: "Bebidas",
