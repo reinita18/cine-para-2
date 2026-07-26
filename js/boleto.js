@@ -121,7 +121,7 @@ export function renderConfirmacion(contenedor, contexto) {
             <h2 id="checkout-food-title">Dulcería</h2>
             ${crearLineasPedido(items)}
             <div class="checkout-line">
-              <span>Total simbólico</span>
+              <span>Total</span>
               <strong>${formatearMoneda(total)}</strong>
             </div>
           </section>
