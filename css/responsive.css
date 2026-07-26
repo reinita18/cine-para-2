@@ -214,13 +214,27 @@
     padding: var(--space-5);
   }
 
-  .ticket__movie {
-    grid-template-columns: 4.8rem minmax(0, 1fr);
-  }
+.ticket__movie {
+  display: grid;
+  grid-template-columns: 7rem minmax(0, 1fr);
+  gap: var(--space-5);
+  align-items: center;
+  margin-bottom: var(--space-6);
+}
 
-  .ticket__poster {
-    width: 4.8rem;
-  }
+.ticket__movie > div {
+  min-width: 0;
+}
+
+.ticket__poster {
+  display: block;
+  width: 7rem;
+  height: 10.5rem;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
 
   .ticket__details {
     grid-template-columns: 1fr 1fr;
@@ -241,5 +255,72 @@
     right: 0.5rem;
     bottom: 0.5rem;
     width: calc(100% - 1rem);
+  }
+}
+
+/* =========================================
+   DETALLE DE PELÍCULA EN TABLET Y MÓVIL
+   ========================================= */
+
+@media (max-width: 48rem) {
+  .movie-detail {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  .movie-detail__poster-frame {
+    width: 100%;
+    padding: 0.65rem;
+    overflow: hidden;
+    border-radius: 1.25rem;
+  }
+
+  .movie-detail__poster-frame::after {
+    inset: 0.65rem;
+    border-radius: calc(1.25rem - 0.35rem);
+  }
+
+  .movie-detail__poster {
+    width: 100%;
+    height: clamp(30rem, 60vw, 20rem);
+    object-fit: cover;
+    object-position: center 25%;
+    border-radius: calc(1.25rem - 0.35rem);
+  }
+
+  .movie-detail__copy {
+    width: 100%;
+    max-width: none;
+  }
+
+  .movie-detail__copy h1 {
+    font-size: clamp(2.25rem, 10vw, 3.25rem);
+    line-height: 1;
+  }
+
+  .movie-detail__meta {
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .movie-detail__synopsis {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .movie-detail__note {
+    padding: 1rem 1.25rem;
+    margin-block: 1.5rem;
+  }
+
+  .movie-detail .button-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .movie-detail .button-row .button {
+    width: 100%;
   }
 }
