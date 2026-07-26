@@ -136,7 +136,7 @@ export function renderDulceria(contenedor, contexto, momento = "antes") {
     : "Elige algo de la dulcería";
   const descripcion = esDurante
     ? "Pide solo lo que necesites y continúa disfrutando la función."
-    : "Puedes agregar algo para compartir o continuar sin alimentos.";
+    : " ";
   const etiquetaPaso = esDurante ? "Servicio a tu asiento" : "Paso 3 de 3";
   const textoBoton = esDurante ? "Enviar pedido" : "Continuar";
   const categoriasHtml = crearCategorias(momento, seleccion);
